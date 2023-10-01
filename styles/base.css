@@ -77,6 +77,7 @@ nav {
   margin: 0;
   padding: 25px;
   grid-template-columns: 1fr;
+  font-size: 18px;
 }
 
 
@@ -116,6 +117,20 @@ main h2{
     flex-direction: column;
     text-align: center;
     border: 2px solid black; 
+}
+
+.card li a {
+	display: block;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.card li a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
 }
 
 
