@@ -7,7 +7,7 @@
   }
 
   nav {
-      max-width: 100%;
+    max-width: 100%;
     padding: 0px;
     background: #134074;
   }
@@ -106,7 +106,7 @@
   } 
   
   main{
-      max-width: 75%;
+      max-width: 100%;
       margin: auto;
       display: grid; 
       grid-template-columns: 1fr 1fr 1fr;
