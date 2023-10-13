@@ -81,7 +81,7 @@
   
   p {
     font-family: 'Arimo', sans-serif;
-    padding: 1em;
+    padding: 2px;
   }
 
   
@@ -136,8 +136,7 @@
   }
   
   .current h2{
-        background: #8DA9C4;
-        margin-top: 0px;
+        margin: 0px;
   }
   
   .action{
@@ -148,7 +147,7 @@
   }
   
   .action h2{
-        margin-top: 0px;
+        margin: 5px;
   }
   
   .weather{
@@ -168,15 +167,51 @@
       grid-column: 3/4;
       grid-row: 2/4;
       text-align: center;
-      background: #8DA9C4;
   }
   
   .spotlight h2{
-        margin-top: 0px;
+        margin: 5px;
+        padding-top: 5px;
+        border: 2px solid black;
   }
+  .member1{
+    background: #8DA9C4;
+    margin: 5px;
+    padding-top: 5px;
+  }
+
+  .member2{
+    background: #8DA9C4;
+    margin: 5px;
+    padding-top: 5px;
+  }
+
+  .member3{
+    background: #8DA9C4;
+    margin: 5px;
+    padding-top: 5px;
+  }
+
+  #mode {
+	position: absolute;
+	top: 1rem;
+	right: 4rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    main{
+        display: block;
+    }
+
+    footer{
+            display: block;
+    }
+
+
+}
   
   @media (min-width: 37.5em) {
-  
   
       #menu {
           display: none;
@@ -190,7 +225,7 @@
           display: block;
           flex: 1 1 100%;
       }
+    }
   
-  }
   
   
