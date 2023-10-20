@@ -71,29 +71,21 @@ nav {
 }
 
 
-main {
-	max-width: 670px;
-	margin: 0 auto;
-}
-
 .hero {
 	margin: 10px auto; 
 	position: relative; 
 	border: 1px solid rgba(0,0,0,.1);
-	height: 300px;
     width: 100%; 
 	grid-column: 1/3;
 	grid-row: 1/2;
+	background-size: contain;
 
 }
 
  .hero img { 
-    display: flex;
-    min-width: 350px; 
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 
