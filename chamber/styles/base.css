@@ -79,17 +79,6 @@
       height: 100px;
   }
 
-.hero img {
-    width: 100%;
-}
-
-
- .hero img{ 
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
   
   
   footer{
@@ -115,15 +104,31 @@
       max-width: 100%;
       margin: auto;
       display: grid; 
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto auto auto auto;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto;
       column-gap: 10px;
       row-gap:10px;
   }
-  
+
+  .hero {
+	margin: 10px auto; 
+	position: relative; 
+	border: 1px solid rgba(0,0,0,.1);
+    width: 100%; 
+	grid-column: 1/4;
+	grid-row: 1/2;
+	background-size: contain;
+
+}
+
+ .hero img{ 
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
   .image{
       grid-column: 2/3;
-      grid-row: 2/3;
+      grid-row: 3/4;
       text-align: center;    
   }
 
@@ -135,7 +140,7 @@
   
   .current{
       grid-column: 1/4;
-      grid-row: 1/2;
+      grid-row: 2/3;
       text-align: center;
       background:#d5dcd4;
       margin-top:10px;
@@ -147,7 +152,7 @@
   
   .action{
       grid-column: 1/2;
-      grid-row: 2/4;
+      grid-row: 3/6;
       text-align: center;
       background: #8DA9C4;
   }
@@ -160,7 +165,7 @@
       grid-column: 2/3;
       font-size: 24px;
       text-align: center;
-      grid-row: 3/4;
+      grid-row: 4/6;
       background:#d5dcd4;
   }
   
@@ -171,7 +176,7 @@
   
   .spotlight{
       grid-column: 3/4;
-      grid-row: 2/4;
+      grid-row: 3/6;
       text-align: center;
   }
   
@@ -231,6 +236,8 @@
           display: block;
           flex: 1 1 100%;
       }
+
+      
     }
   
   
