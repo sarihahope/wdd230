@@ -68,6 +68,10 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Comfortaa', cursive;
   }
+  p {
+    font-family: 'Arimo', sans-serif;
+    padding: 1em;
+  }
 
 
   header{
@@ -214,6 +218,49 @@
 	font-size: 3rem;
 	cursor: pointer;
 }
+
+.imgside{
+    grid-column: 2/3;
+    grid-row: 1/5;
+
+
+}
+.imgside img{
+    height: 400px;
+    width: 100%;
+    background: green;
+    animation: fade 15s;
+}
+
+@keyframes fade{
+    0%{
+        opacity:0;
+    }
+
+    100%{
+        opacity: 1 ;
+    }
+}
+
+
+.contentside{
+    grid-column: 1/2;
+    text-align: center;
+    background:#d5dcd4;
+    margin: 5px;
+    padding-top: 5px;
+
+
+}
+
+.contentside li{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     main{
         display: block;
