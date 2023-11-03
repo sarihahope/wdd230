@@ -36,3 +36,26 @@ var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.42
 
 var windChill= Math.round(windChill);
 document.getElementById("windChill").innerHTML= windChill;
+
+
+
+
+const p1 = document.querySelector("#password");
+const p2 = document.querySelector("#password2");
+const message = document.querySelector("#formmessage");
+
+kp2.addEventListener("focusout", checkSame);
+
+function checkSame() {
+	if (p1.value !== p2.value) {
+		message.textContent = "Password does not match";
+		message.style.visibility = "show";
+		p2.style.backgroundColor = "green";
+		p2.value = "";
+		p2.focus();
+	} else {
+		message.style.display = "none";
+		p2.style.backgroundColor = "#fff";
+		p2.style.color = "#000";
+	}
+}
