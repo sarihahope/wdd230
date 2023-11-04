@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="favicon.ico">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+
+
+    <meta
+        name="name"
+        content="WDD 230 - School project for Chamber of Commerce" >
+        <meta property="og:title" content="Chamber of Commerce" >
+        <meta author="Sariha Shepherd" >
+        <meta property="og:type" content="Schoolwork" >
+        <meta property="og:image" content="https://unsplash.com/photos/tjkbJW48lMk" >
+        <meta description = "School project for Chamber of Commerce" >
+        <meta property="og:url" content="https://sarihahope.github.io/wdd230/" >
+
+
+    
+    <title>Chamber of Commerce</title>
+</head>
+
+  <body>
+    <header>
+        <h1>Gridley Chamber of Commerce</h1>
+        <div id="mode">
+          🕶️
+        </div>
+    </header>
+            <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <form>
+          <label><h1>Membersip Information</h1></label>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Member Information</legend>
+                        <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
+                        <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                        <label class="top">Cell number <input type="tel" id="phone" name="phone" placeholder="1231231234"></label>
+                        <label class="top">Business Title <input type="title" id="title" name="title" pattern="[a-zA-Z -]{6,}" placeholder="Please enter your title"></label>
+                        <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>               
+                        <label class="top">Business/Organization Name* <input type="text" id="busnessorg" name="busnessorg" required></label>
+
+                    </fieldset>
+
+                <fieldset>
+                        <legend>Membership Levels</legend>
+                            <div>Membership</div>
+                      <label class="sbs"><input type="radio" name="membership" value="npmembershipr"> NP Membership is for non profit organizations and there is no fee. </label>  
+                      <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership </label>  
+                      <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>  
+                      <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership </label>  
+                      <label class="top">Business/Organization Description <id="busnesdis" name="busnesdis" ></label>
+                      <textarea id="busnesdis" name="busnesdis" rows="4" cols="50"></textarea>
+                    </fieldset>
+
+                <input type="submit" value="Submit" class="submitBtn">
+                <input type="hidden" id="date" name="date" value="CurrentTime"> 
+                <input type="hidden" id="time" name="time" value="CurrentDate">
+
+        </form>
+
+        <table>
+          <caption>Membership Information</caption>
+
+          <thead>
+            <tr>
+                <th colspan="5" scope="colgroup">Membership Information</th>
+            </tr>
+        </thead>
+        <thead>
+          <tr class="title">
+          
+              <th scope="col"></th>
+              <th scope="col">Np </th>
+              <th scope="col">Bronze</th>
+              <th scope="col">Silver</th>
+              <th scope="col">Gold</th>
+          </tr>
+      </thead>
+          <tbody>
+              <tr>
+                  <td>Special Events</td>
+                  <td>✅</td>
+                  <td>❌</td>
+                  <td>✅</td>
+                  <td>✅</td>
+              </tr>
+              <tr>
+                  <td>Trainings</td>
+                  <td>✅</td>
+                  <td>❌</td>
+                  <td>❌</td>
+                  <td>✅</td>
+
+              </tr>
+              <tr>
+                  <td>Adversting</td>
+                  <td>✅</td>
+                  <td>✅</td>
+                  <td>✅</td>
+                  <td>✅</td>
+              </tr>
+              <tr>
+                <td>Pricing</td>
+                <td>$0 yearly</td>
+                <td>$150 yearly</td>
+                <td>$200 yearly</td>
+                <td>$250 yearly</td>
+            </tr>
+
+  
+          </tbody>
+      </table>
+
+
+    </main>
+  
+      <footer>
+        <ul class="contact">
+            <li>Contact Us</li>
+            <li>Phone: (000)000-0000</li>
+            <li>123 Gridley St</li>
+            <li>Gridley, CA 12345</li>
+        </ul>
+        <p>WDD230 school project by Sariha Shepherd.</p>
+        <p>Last Modifed:</p>
+        <p id="lastmodified"></p>
+
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchilol.js"></script>
+  </body>
+</html>
