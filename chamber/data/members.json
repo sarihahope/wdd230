@@ -1,0 +1,60 @@
+{
+    "members": [
+      {
+        "name": "Billy Bobs Plumbing",
+        "addresses": "999 Lost Way, Gridley, Ca 95948",
+        "phonenumber": "000-000-000",
+        "websiteurl":"www.1234.com",
+        "iconimage": "",
+        "membershiplevel": "Gold"
+      },
+      {
+        "name": "Rail House",
+        "addresses": "777 Lost Way, Gridley, Ca 95948",
+        "phonenumber": "000-000-000",
+        "websiteurl":"www.1234.com",
+        "iconimage": "",
+        "membershiplevel": "Silver"
+      },
+      {
+        "name": "Ice Burgee",
+        "addresses": "1900 Card Way, Gridley, Ca 95948",
+        "phonenumber": "000-000-000",
+        "websiteurl":"www.1234.com",
+        "iconimage": "",
+        "membershiplevel": "Bronze"
+      },
+      {
+        "name": "Buger King",
+        "addresses": "9999 99 Way, Gridley, Ca 95948",
+        "phonenumber": "000-000-000",
+        "websiteurl":"www.1234.com",
+        "iconimage": "",
+        "membershiplevel": "Silver"
+      },
+      {
+        "name": "Fred's Milkshake",
+        "addresses": "888 Fan Way, Gridley, Ca 95948",
+        "phonenumber": "000-000-000",
+        "websiteurl":"www.1234.com",
+        "iconimage": "",
+        "membershiplevel": "Gold"
+      },
+      {
+        "name": "Sav Mor",
+        "addresses": "1030 Hazel Way, Gridley, Ca 95948",
+        "phonenumber": "000-000-000",
+        "websiteurl":"www.1234.com",
+        "iconimage": "",
+        "membershiplevel": "Silver"
+      },
+      {
+        "name": "Gridley Musuem",
+        "addresses": "999 Lost Way, Gridley, Ca 95948",
+        "phonenumber": "000-000-000",
+        "websiteurl":"www.1234.com",
+        "iconimage": "",
+        "membershiplevel": "Gold"
+      }
+    ]
+  }
