@@ -1,0 +1,128 @@
+{
+  "lessons": [
+    {
+        "lesson": "01",
+      "links": [
+        {
+          "url":"lesson01/holygrail.html",
+          "title":"Holy Grail"
+        },
+        {
+          "url":"lesson01/media-query.html",
+          "title":"Media Queries Design"
+        },
+        ]
+      "lesson": "02",
+      "links": [
+        {
+          "url":"lesson02/design.html",
+          "title":"Web Priciples"
+        },
+        {
+          "url":"lesson02/design-principles.html",
+          "title":"Design Principles Document"
+        }
+        ]
+    "lesson": "03",
+      "links": [
+        {
+          "url":"lesson03/images/landscape.webp",
+          "title":"WebP"
+        },
+        {
+          "url":"lesson03/responsive-images.html",
+          "title":"Responsive-images"
+        },
+        {
+          "url":"lesson03/lazyload.html",
+          "title":"Lazyloading"
+        },
+      ]
+
+          "lesson": "04",
+      "links": [
+        {
+          "url":"https://codepen.io/Sariha-Shepherd/pen/LYMreer",
+          "title":"CSS Combinations"
+        },
+        {
+          "url":"https://codepen.io/Sariha-Shepherd/pen/LYMreer",
+          "title":"CSS Pseudo-elements"
+        },
+      ]
+
+    "lesson": "05",
+      "links": [
+        {
+          "url":"https://codepen.io/Sariha-Shepherd/pen/ExGRoJL",
+          "title":"Responsive "Hamburger" Menu"
+        },
+       {
+          "url":"lesson05/bom.html",
+          "title":"BOM Favorite Chapters"
+        },
+      ]
+    "lesson": "06",
+      "links": [
+        {
+          "url":"BOM/bom.html",
+          "title":"Updated BOM Favorite"
+        },
+
+      ]
+    "lesson": "07",
+      "links": [
+        {
+          "url":"lesson07/tablebuild.html",
+          "title":"Table"
+        },
+
+      ]
+    "lesson": "08",
+      "links": [
+        {
+          "url":"form-start/index.html",
+          "title":"Forms"
+        },
+        {
+          "url":"form.html",
+          "title":"Forms Practice"
+        },
+        {
+          "url":"",
+          "title":""
+        },
+      ]
+    "lesson": "09",
+      "links": [
+        {
+          "url":"",
+          "title":""
+        },
+        {
+          "url":"",
+          "title":""
+        },
+        {
+          "url":"",
+          "title":""
+        },
+      ]
+    "lesson": "10",
+      "links": [
+        {
+          "url":"",
+          "title":""
+        },
+        {
+          "url":"",
+          "title":""
+        },
+        {
+          "url":"",
+          "title":""
+        },
+      ]
+    },
+  ]
+}x
