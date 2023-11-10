@@ -106,8 +106,12 @@
     "lesson": "09",
       "links": [
         {
-          "url":"",
-          "title":""
+          "url":"lesson09/prophets.html",
+          "title":"Prophets"
+        },
+        {
+          "url":"lesson09/new-ward-members.json",
+          "title":"Ward Members"
         }
 
       ]

@@ -160,7 +160,6 @@ main h2{
 .card li a {
 	display: block;
 	padding: 5px;
-	text-align: center;
 	text-decoration: none;
 	color: black;
 }
