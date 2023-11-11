@@ -5,7 +5,7 @@
         "addresses": "999 Lost Way, Gridley, Ca 95948",
         "phonenumber": "000-000-000",
         "websiteurl":"www.1234.com",
-        "iconimage": "",
+        "iconimage": "images/wrench.png",
         "membershiplevel": "Gold"
       },
       {
@@ -13,7 +13,7 @@
         "addresses": "777 Lost Way, Gridley, Ca 95948",
         "phonenumber": "000-000-000",
         "websiteurl":"www.1234.com",
-        "iconimage": "",
+        "iconimage": "images/sandwich.png",
         "membershiplevel": "Silver"
       },
       {
@@ -21,7 +21,7 @@
         "addresses": "1900 Card Way, Gridley, Ca 95948",
         "phonenumber": "000-000-000",
         "websiteurl":"www.1234.com",
-        "iconimage": "",
+        "iconimage": "images/iceburger.png",
         "membershiplevel": "Bronze"
       },
       {
@@ -29,7 +29,7 @@
         "addresses": "9999 99 Way, Gridley, Ca 95948",
         "phonenumber": "000-000-000",
         "websiteurl":"www.1234.com",
-        "iconimage": "",
+        "iconimage": "images/crown.png",
         "membershiplevel": "Silver"
       },
       {
@@ -37,7 +37,7 @@
         "addresses": "888 Fan Way, Gridley, Ca 95948",
         "phonenumber": "000-000-000",
         "websiteurl":"www.1234.com",
-        "iconimage": "",
+        "iconimage": "images/milkshake.png",
         "membershiplevel": "Gold"
       },
       {
@@ -45,7 +45,7 @@
         "addresses": "1030 Hazel Way, Gridley, Ca 95948",
         "phonenumber": "000-000-000",
         "websiteurl":"www.1234.com",
-        "iconimage": "",
+        "iconimage": "images/grocery.png",
         "membershiplevel": "Silver"
       },
       {
@@ -53,8 +53,7 @@
         "addresses": "999 Lost Way, Gridley, Ca 95948",
         "phonenumber": "000-000-000",
         "websiteurl":"www.1234.com",
-        "iconimage": "",
-        "membershiplevel": "Gold"
+        "iconimage": "images/books.png"
       }
     ]
   }
