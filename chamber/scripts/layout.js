@@ -1,61 +1,44 @@
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
 
-gridbutton.addEventListener("click", () => {
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
+  const url = "https://sarihahope.github.io/wdd230/chamber/data/members.json";
+  const cards = document.querySelector('#cards');
 
-listbutton.addEventListener("click", showList); 
+  const getMemberData = async () => {
+      const response = await fetch(url);
+      const data = await response.json();
+      //console.table(data);
+      displayMembers(data.members);
+  }
 
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
+  const displayMembers = (members) => {
+    members.forEach((member) => {
+      let card = document.createElement('section');
+      let name = document.createElement('h2'); 
+      let addresses = document.createElement('h3');
+      let phonenumber = document.createElement('p');
+      let websiteurl = document.createElement('p');
+	    let membershiplevel = document.createElement('p');
+	    let portrait = document.createElement('img');
 
-const baseURL = "https://sarihahope.github.io/wdd230/";
-const linksURL = "https://sarihahope.github.io/wdd230/data/members.json";
-const directory = document.querySelector('#directory');
+      name.textContent = `${member.name}`; 
+	    addresses.textContent = `${member.addresses}`; 
+	    phonenumber.textContent = `${member.phonenumber}`; 
+	    websiteurl.textContent = `${member.websiteurl}`; 
+	    membershiplevel.textContent = `${member.membershiplevel}`; 	
 
-const getMemberData = async () => {
-    const response = await fetch(url);
-    const data = await response.json();
-    console.table(data);
-    // displayMembers(data.members);
-}
+      portrait.setAttribute('src', member.iconimage);
+      portrait.setAttribute('loading', 'lazy');
+      portrait.setAttribute('width', '50');
+      portrait.setAttribute('height', '50');
 
-const displayMembers = (members) => {
-  members.forEach((member) => {
-    let directory = document.createElement('section');
-    let name = document.createElement('h2'); 
-    let addresses = document.createElement('h3');
-    let phonenumber = document.createElement('p');
-    let websiteurl = document.createElement('p');
-	let membershiplevel = document.createElement('p');
-	let portrait = document.createElement('img');
+      card.appendChild(name);
+      card.appendChild(addresses);
+      card.appendChild(phonenumber);
+	    card.appendChild(phonenumber);
+	    card.appendChild(websiteurl);
+	    card.appendChild(membershiplevel);
+      card.appendChild(portrait);
 
-    name.textContent = `${member.name}`; 
-	addresses.textContent = `${member.addresses}`; 
-	phonenumber.textContent = `${member.phonenumber}`; 
-	websiteurl.textContent = `${member.websiteurl}`; 
-	membershiplevel.textContent = `${member.membershiplevel}`; 	
+    });
+  };
+  getMemberData();
 
-    portrait.setAttribute('src', member.iconimage);
-    portrait.setAttribute('loading', 'lazy');
-    portrait.setAttribute('width', '50');
-    portrait.setAttribute('height', '50');
-
-    directory.appendChild(name);
-    directory.appendChild(addresses);
-    directory.appendChild(phonenumber);
-	directory.appendChild(phonenumber);
-	directory.appendChild(websiteurl);
-	directory.appendChild(membershiplevel);
-    directory.appendChild(portrait);
-    directory.appendChild(directory);
-
-  });
-};
-
-getMemberData();
