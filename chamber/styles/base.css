@@ -399,14 +399,8 @@ tbody tr:nth-child(even) {
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: var(--back);
-}
+	background-color: #eee;
 
-.grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 5px;
-	align-items: center;
 }
 
 .grid section {
@@ -418,10 +412,6 @@ section {
 	box-shadow: 0 0 10px #333;
 }
 
-.grid section > * {
-	margin: 0.1rem;
-}
-
 
 .list {
 	display: flex;
@@ -429,27 +419,13 @@ section {
 }
 
 .list section {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	margin: 0;
-	padding: 0.25rem;
-}
+    align-items: center;
+    text-align: center;
+}  
 
-.list section > * {
-	margin: 0 1rem;
-}
 
 .list section img {
 	display: none; 
-}
-
-.list section h3 {
-	font-size: 1rem;
-	font-family: Roboto, Helvetica, sans-serif;
-}
-
-.list section:nth-child(even) {
-	background-color: #bed;
 }
 
 
@@ -477,6 +453,10 @@ section {
 
     .content{
         display: none;
+  }
+
+  #cards{
+    grid-template-columns: 1fr;
   }
 
 

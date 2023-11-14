@@ -37,6 +37,8 @@
 	    card.appendChild(websiteurl);
 	    card.appendChild(membershiplevel);
       card.appendChild(portrait);
+      cards.appendChild(card)
+
 
     });
   };
