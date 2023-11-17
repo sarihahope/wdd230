@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
 
     <meta
         name="name"
@@ -81,6 +82,12 @@
              <li>High: 91&deg;</li>
              <li>Low: 54&deg;</li>
              <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+             <p>The current temperature in Gridley, California is <span id="current-temp"></span></p>
+
+             <figure>
+                 <img id="weather-icon" src="" alt="">
+                 <figcaption></figcaption>
+             </figure>
       </ul> 
       </section>
       
@@ -129,5 +136,6 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/windchilol.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>

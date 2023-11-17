@@ -30,26 +30,26 @@ modeButton.addEventListener("click", () => {
 
 
 
-const visitsDisplay = document.querySelector(".visits");
+// const visitsDisplay = document.querySelector(".visits");
 
-let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
+// let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
-}
+// if (numVisits !== 0) {
+// 	visitsDisplay.textContent = numVisits;
+// } else {
+// 	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
+// }
 
 
-numVisits++;
+// numVisits++;
 
-localStorage.setItem("numVisits-ls", numVisits);
+// localStorage.setItem("numVisits-ls", numVisits);
 
-var d = new Date();
+// var d = new Date();
 
-document.getElementById("date").value = d.toDateString();
+// document.getElementById("date").value = d.toDateString();
 
-var hours = d.getHours();
-var mins = d.getMinutes();
-var seconds = d.getSeconds();
-document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
+// var hours = d.getHours();
+// var mins = d.getMinutes();
+// var seconds = d.getSeconds();
+// document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
