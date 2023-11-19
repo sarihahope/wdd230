@@ -27,6 +27,17 @@
 </head>
 
   <body>
+
+<div class="bannercontainer">
+  <div class="bannercontent">
+    <div class="bannertext">
+      <strong>Reminder:</strong> Chamber of Commerce meeting Wednsday at 7pm.
+    </div>
+    <button class="bannerButton" type="button">❌</button>
+  </div>
+</div>
+
+
     <header>
         <h1>Gridley Chamber of Commerce</h1>
         <div id="mode">
@@ -84,10 +95,10 @@
              <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
              <p>The current temperature in Gridley, California is <span id="current-temp"></span></p>
 
-             <figure>
-                 <img id="weather-icon" src="" alt="">
-                 <figcaption></figcaption>
-             </figure>
+             <div id="weather-show">
+              <img id="icon">
+              <p id="weather"></p>
+              </div>
       </ul> 
       </section>
       
@@ -137,5 +148,8 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/windchilol.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/banner.js"></script>
+
   </body>
 </html>

@@ -20,6 +20,16 @@
     padding: 0px;
     background: #134074;
   }
+
+
+  .bannercontainer{
+    width: 100%; 
+    text-align: center;
+    background-color: var(--backtitle);
+    color: #fff;
+    
+  }
+
   
   #menu {
       font-size: 1.5rem;
