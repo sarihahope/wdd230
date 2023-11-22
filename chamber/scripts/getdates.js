@@ -30,26 +30,33 @@ modeButton.addEventListener("click", () => {
 
 
 
-// const visitsDisplay = document.querySelector(".visits");
-
-// let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
-
-// if (numVisits !== 0) {
-// 	visitsDisplay.textContent = numVisits;
-// } else {
-// 	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
-// }
 
 
-// numVisits++;
+const visits = document.getElementById("visitcount");
 
-// localStorage.setItem("numVisits-ls", numVisits);
+document.addEventListener("DOMContentLoaded", e => {
+    const msToDays = 84600000;
+    visits.innerHTML = "";
+    if (!localStorage.getItem("visit")) {
+        visits.innerHTML = "Welcome! Let us know if you have any questions.";
+        localStorage.setItem("visit", Date.now());
+    }
+    else {
+        let lastVisit = localStorage.getItem("visit");
+        let currentVisit = Date.now();
 
-// var d = new Date();
-
-// document.getElementById("date").value = d.toDateString();
-
-// var hours = d.getHours();
-// var mins = d.getMinutes();
-// var seconds = d.getSeconds();
-// document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
+        if (currentVisit - Number.parseInt(lastVisit) < msToDays) {
+            visits.innerHTML = "Back so soon! Awesome!";
+            localStorage.setItem("visit", currentVisit);
+        }
+        else {
+            let days = (currentVisit - lastVisit) / msToDays;
+            if (days == 1) {
+                visits.innerHTML = `You last visited 1 day ago`;
+            }
+            else {
+                visits.innerHTML = `You last visited ${days} days ago`;
+            }
+        }
+    }
+});
