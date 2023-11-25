@@ -252,6 +252,7 @@
 
 .imgside img {
     grid-column: 2/3;
+
 }
 
 .contentside{
@@ -273,13 +274,16 @@
      height: auto;
      width: auto;
      float: left; 
-     margin-bottom: 10px;                  
+     /* margin-bottom: 10px;   */
+     font-weight: 700;              
 }
 
 .imagebox img {
  vertical-align: middle;
      height: 400px;
      width: 100%;
+     border-bottom: 1px solid #777; 
+     margin-bottom: 1rem;  
 }
 .content{
    width:auto;
