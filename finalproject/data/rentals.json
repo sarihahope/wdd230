@@ -3,98 +3,62 @@
         {
             "name": "Honda Metro Scooter",
             "capacity": "1",
-            "resevation": [
-                {
-                    "halfday": "$20 for 3 hours",
-                    "fullday": "$30 for the full day"
-                }
-            ],
-            "walkin": [
-                {
-                    "halfdayw": "$25 for 3 hours",
-                    "fulldayw": "$35 for the full day"
-                }
-            ]
+            "resevation": "Resevations",
+            "halfday": "$20 for 3 hours",
+            "fullday": "$30 for the full day",
+            "walkin": "Walk-ins",
+            "halfdayw": "$25 for 3 hours",
+            "fulldayw": "$35 for the full day"
         },
         {
             "name": "Honda Dio Scooter",
             "capacity": "2",
-            "resevation": [
-                {
-                    "halfday": "$30 for 3 hours",
-                    "fullday": "$40 for the full day"
-                }
-            ],
-            "walkin": [
-                {
-                    "halfdayw": "$35 for 3 hours",
-                    "fulldayw": "$45 for the full day"
-                }
-            ]
+            "resevation": "Resevations",
+            "halfday": "$30 for 3 hours",
+            "fullday": "$40 for the full day",
+            "walkin":"Walk-In", 
+            "halfdayw": "$35 for 3 hours",
+            "fulldayw": "$45 for the full day"
         },
         {
             "name": "Honda PCX150 Scooter",
             "capacity": "2",
-            "resevation": [
-                {
-                    "halfday": "$40 for 3 hours",
-                    "fullday": "$50 for the full day"
-                }
-            ],
-            "walkin": [
-                {
-                    "halfdayw": "$45 for 3 hours",
-                    "fulldayw": "$55 for the full day"
-                }
-            ]
+            "resevation": "Resevations",
+            "halfday": "$40 for 3 hours",
+            "fullday": "$50 for the full day",
+            "walkin":"Walk-In",
+            "halfdayw": "$45 for 3 hours",
+            "fulldayw": "$55 for the full day"
         },
         {
             "name": "Honda Pioneer ATV",
             "capacity": "4",
-            "resevation": [
-                {
-                    "halfday": "$50 for 3 hours",
-                    "fullday": "$70 for the full day"
-                }
-            ],
-            "walkin": [
-                {
-                    "halfdayw": "$60 for 3 hours",
-                    "fulldayw": "$80 for the full day"
-                }
-            ]
+            "resevation": "Resevations",    
+            "halfday": "$50 for 3 hours",
+            "fullday": "$70 for the full day",
+            "walkin":"Walk-In", 
+            "halfdayw": "$60 for 3 hours",
+            "fulldayw": "$80 for the full day"
         },
         {
             "name": "Jeep Wrangler - 4 door with a/c",
             "capacity": "5",
-            "resevation": [
-                {
-                    "halfday": "$70 for 3 hours",
-                    "fullday": "$100 for the full day"
-                }
-            ],
-            "walkin": [
-                {
-                    "halfdayw": "$85 for 3 hours",
-                    "fulldayw": "$125 for the full day"
-                }
-            ]
+            "resevation": "Resevations",
+            "halfday": "$70 for 3 hours",
+            "fullday": "$100 for the full day",
+            "walkin":"Walk-In", 
+            "halfdayw": "$85 for 3 hours",
+            "fulldayw": "$125 for the full day"  
         },
         {
             "name": "Jeep Wrangler - 2 door",
             "capacity": "4",
-            "resevation": [
-                {
-                    "halfday": "$60 for 3 hours",
-                    "fullday": "$85 for the full day"
-                }
-            ],
-            "walkin": [
-                {
-                    "halfdayw": "$70 for 3 hours",
-                    "fulldayw": "$90 for the full day"
-                }
-            ]
+            "resevation": "Resevations",
+            "halfday": "$60 for 3 hours",
+            "fullday": "$85 for the full day",
+            "walkin":"Walk-In",
+            "halfdayw": "$70 for 3 hours",
+            "fulldayw": "$90 for the full day"
         }
     ]
 }
