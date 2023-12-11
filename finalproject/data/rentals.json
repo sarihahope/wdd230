@@ -2,7 +2,7 @@
     "rentals": [
         {
             "name": "Honda Metro Scooter",
-            "capacity": "1",
+            "capacity": "Capacity: 1",
             "resevation": "Resevations",
             "halfday": "$20 for 3 hours",
             "fullday": "$30 for the full day",
@@ -12,7 +12,7 @@
         },
         {
             "name": "Honda Dio Scooter",
-            "capacity": "2",
+            "capacity": "Capacity: 2",
             "resevation": "Resevations",
             "halfday": "$30 for 3 hours",
             "fullday": "$40 for the full day",
@@ -22,7 +22,7 @@
         },
         {
             "name": "Honda PCX150 Scooter",
-            "capacity": "2",
+            "capacity": "Capacity: 2",
             "resevation": "Resevations",
             "halfday": "$40 for 3 hours",
             "fullday": "$50 for the full day",
@@ -32,7 +32,7 @@
         },
         {
             "name": "Honda Pioneer ATV",
-            "capacity": "4",
+            "capacity": "Capacity: 4",
             "resevation": "Resevations",    
             "halfday": "$50 for 3 hours",
             "fullday": "$70 for the full day",
@@ -42,7 +42,7 @@
         },
         {
             "name": "Jeep Wrangler - 4 door with a/c",
-            "capacity": "5",
+            "capacity": "Capacity: 5",
             "resevation": "Resevations",
             "halfday": "$70 for 3 hours",
             "fullday": "$100 for the full day",
@@ -52,7 +52,7 @@
         },
         {
             "name": "Jeep Wrangler - 2 door",
-            "capacity": "4",
+            "capacity": "Capacity: 4",
             "resevation": "Resevations",
             "halfday": "$60 for 3 hours",
             "fullday": "$85 for the full day",
