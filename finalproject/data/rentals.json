@@ -1,0 +1,100 @@
+{
+    "rentals": [
+        {
+            "name": "Honda Metro Scooter",
+            "capacity": "1",
+            "resevation": [
+                {
+                    "halfday": "$20 for 3 hours",
+                    "fullday": "$30 for the full day"
+                }
+            ],
+            "walkin": [
+                {
+                    "halfday": "$25 for 3 hours",
+                    "fullday": "$35 for the full day"
+                }
+            ]
+        },
+        {
+            "name": "Honda Dio Scooter",
+            "capacity": "2",
+            "resevation": [
+                {
+                    "halfday": "$30 for 3 hours",
+                    "fullday": "$40 for the full day"
+                }
+            ],
+            "walkin": [
+                {
+                    "halfday": "$35 for 3 hours",
+                    "fullday": "$45 for the full day"
+                }
+            ]
+        },
+        {
+            "name": "Honda PCX150 Scooter",
+            "capacity": "2",
+            "resevation": [
+                {
+                    "halfday": "$40 for 3 hours",
+                    "fullday": "$50 for the full day"
+                }
+            ],
+            "walkin": [
+                {
+                    "halfday": "$45 for 3 hours",
+                    "fullday": "$55 for the full day"
+                }
+            ]
+        },
+        {
+            "name": "Honda Pioneer ATV",
+            "capacity": "4",
+            "resevation": [
+                {
+                    "halfday": "$50 for 3 hours",
+                    "fullday": "$70 for the full day"
+                }
+            ],
+            "walkin": [
+                {
+                    "halfday": "$60 for 3 hours",
+                    "fullday": "$80 for the full day"
+                }
+            ]
+        },
+        {
+            "name": "Jeep Wrangler - 4 door with a/c",
+            "capacity": "5",
+            "resevation": [
+                {
+                    "halfday": "$70 for 3 hours",
+                    "fullday": "$100 for the full day"
+                }
+            ],
+            "walkin": [
+                {
+                    "halfday": "$85 for 3 hours",
+                    "fullday": "$125 for the full day"
+                }
+            ]
+        },
+        {
+            "name": "Jeep Wrangler - 2 door",
+            "capacity": "4",
+            "resevation": [
+                {
+                    "halfday": "$60 for 3 hours",
+                    "fullday": "$85 for the full day"
+                }
+            ],
+            "walkin": [
+                {
+                    "halfday": "$70 for 3 hours",
+                    "fullday": "$90 for the full day"
+                }
+            ]
+        }
+    ]
+}

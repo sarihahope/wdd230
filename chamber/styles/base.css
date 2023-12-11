@@ -359,10 +359,6 @@ form input.submitBtn{
 
 
 
-form label.top input:required:valid{
-    border-left: green solid 6px;
-}
-
 table {
 	margin: 10px auto;
 	border: thin solid var(--border);

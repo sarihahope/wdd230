@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~Scoots~</title>
+    <meta
+    name="name"
+    content="Scoots Website" >
+    <meta property="og:title" content="Scoots Website Reservations" >
+    <meta property= "og:author" content="Sariha Shepherd" >
+    <meta property="og:type" content="Scoots website Reservations" >
+    <meta property="og:image" content="https://unsplash.com/photos/a-green-scooter-parked-in-front-of-potted-plants-Ln-5o7LN-qg" >
+    <meta name="description" content= "Scoots Website" >
+    <meta property="og:url" content="https://sarihahope.github.io/wdd230/" >
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header>
+        <h1>Scoots</h1>
+    </header>
+
+    <nav>
+
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <div class id="content">
+        <form method="get" action="contactform .html">
+            <fieldset>
+                <legend>Resevation Form</legend>
+                    <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                    <label class="top">Cell number <input type="tel" id="phone" name="phone" placeholder="1231231234"></label>
+                    <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Home State/Country* <input type="text" id="home" name="home" placeholder="Please enter your home state or country" required></label>
+                    <label class="top">Cruise Line Information <input type="text" id="cruise" name="cruise" placeholder="If applicable, please enter cruise line information"></label>
+                    <label class="top">Special Requests</label>
+                    <textarea id="specialid" name="specialid" row="5" cols="50" placeholder="Please enter any special requests or comments, such as needs, location of drop-off requests or any other special accommodations."></textarea>
+                </fieldset>
+
+            <fieldset>
+                <label class="bottem">Begining Date of Resevation*<input type="date" id="bresevation" name="bresevation" required></label>
+                <label class="bottem">Ending Date of Resevation*<input type="date" id="eresevation" name="eresevation" required></label>
+                <label class="bottem">Number of Rentals Wanted<input type="number" id="numrental" name="numrental"></label>
+                <label class="bottem">Honda Metro Scooter<input type="checkbox" id="rental1" name="rental1" value="Scooter"></label>
+                <label class="bottem">Honda Dio Scooter<input type="checkbox" id="rental2" name="rental2" value="Scooter2"></label>
+                <label class="bottem">Honda PCX150 Scooter<input type="checkbox" id="rental3" name="rental3" value="Scooter3"></label>
+                <label class="bottem">Honda Pioneer ATV<input type="checkbox" id="rental4" name="rental4" value="ATV"></label>
+                <label class="bottem">Jeep Wrangler - 4 door with a/c<input type="checkbox" id="rental5" name="rental5" value="jeep1"></label>
+                <label class="bottem">Jeep Wrangler - 2 door<input type="checkbox" id="rental6" name="rental6" value="jeep2"></label>
+
+            </fieldset>
+    
+    
+            <input type="submit" value="Submit" class="submitBtn">
+            <input type="hidden" id="date" name="date" value="CurrentTime"> 
+            <input type="hidden" id="time" name="time" value="CurrentDate">
+    </form> 
+
+    <section class="agrental">
+        <h1>Rental Agreement</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quia, nobis illum quae 
+            iste architecto natus incidunt necessitatibus placeat exercitationem repellat veritatis,
+             odio neque dolor, accusantium voluptatum soluta animi. Expedita assumenda reiciendis, aut 
+             incidunt vel quasi animi. Tempora corrupti ipsam ab sapiente? Iste temporibus, accusamus 
+             iure dignissimos, nulla id voluptates quam velit numquam enim in eum fugit facilis explicabo 
+             voluptatibus nihil ex! Voluptate excepturi exercitationem earum quo itaque tempore culpa quod 
+             omnis, tempora tenetur quos numquam qui distinctio fuga, necessitatibus assumenda adipisci sunt 
+             error ipsa iste unde alias aliquid fugit consectetur! Odio soluta, eveniet officiis voluptate
+              sequi amet libero sint!</p>
+    </section>
+</div>
+    </main>
+    <footer>
+
+        <section class="contactUs">
+            <h4>Scoots</h4>
+            <p>Address: 0000 Ferry Way</p>
+            <p>Phone Number: 000-000-0000</p>
+            <p>Email: somthingemail@somewhere.com</p>
+        </section>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
