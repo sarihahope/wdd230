@@ -1,27 +1,46 @@
 const url = "https://sarihahope.github.io/wdd230/finalproject/data/rentals.json";
-  const cards = document.querySelector('#cards');
+  const cards = document.querySelector('#rentalinfo');
 
-  const getMemberData = async () => {
+  const getRentalData = async () => {
       const response = await fetch(url);
       const data = await response.json();
-      //console.table(data);
-      displayMembers(data.members);
+      // console.table(data);
+      displayRentals(data.rentals);
   }
 
-  const displayMembers = (members) => {
-    members.forEach((member) => {
+  const displayRentals = (rentals) => {
+    rentals.forEach((rental) => {
       let card = document.createElement('section');
       let name = document.createElement('h2'); 
-      let addresses = document.createElement('h3');
-      let phonenumber = document.createElement('p');
-      let websiteurl = document.createElement('p');
-      let membershiplevel = document.createElement('p');
-      let portrait = document.createElement('img');
+      let capacity = document.createElement('h3');
+      let resevation = document.createElement('h4');
+      let halfday = document.createElement('p');
+      let fullday = document.createElement('p');
+      let walkin = document.createElement('h4');
+      let halfdayw = document.createElement('p');
+      let fulldayw = document.createElement('p');
 
-      name.textContent = `${member.name}`; 
-      addresses.textContent = `${member.addresses}`; 
-      phonenumber.textContent = `${member.phonenumber}`; 
-      websiteurl.textContent = `${member.websiteurl}`; 
-      membershiplevel.textContent = `${member.membershiplevel}`;  
+      name.textContent = `${rental.name}`; 
+	    capacity.textContent = `${rental.capacity}`; 
+	    resevation.textContent = `${rental.resevation}`; 
+	    halfday.textContent = `${rental.halfday}`; 
+	    fullday.textContent = `${rental.fullday}`; 
+      walkin.textContent = `${rental.walkin}`; 	
+      fulldayw.textContent = `${rental.fulldayw}`; 
+	    halfdayw.textContent = `${rental.halfdayw}`; 
 
-      portrait.setAttribute('src', member.iconimage);
+
+      card.appendChild(name);
+      card.appendChild(capacity);
+      card.appendChild(resevation);
+	    card.appendChild(halfday);
+	    card.appendChild(fullday);
+	    card.appendChild(walkin);
+      card.appendChild(halfdayw);
+	    card.appendChild(fulldayw);
+      cards.appendChild(card);
+
+
+    });
+  };
+  getRentalData();

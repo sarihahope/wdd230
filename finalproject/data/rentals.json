@@ -11,8 +11,8 @@
             ],
             "walkin": [
                 {
-                    "halfday": "$25 for 3 hours",
-                    "fullday": "$35 for the full day"
+                    "halfdayw": "$25 for 3 hours",
+                    "fulldayw": "$35 for the full day"
                 }
             ]
         },
@@ -27,8 +27,8 @@
             ],
             "walkin": [
                 {
-                    "halfday": "$35 for 3 hours",
-                    "fullday": "$45 for the full day"
+                    "halfdayw": "$35 for 3 hours",
+                    "fulldayw": "$45 for the full day"
                 }
             ]
         },
@@ -43,8 +43,8 @@
             ],
             "walkin": [
                 {
-                    "halfday": "$45 for 3 hours",
-                    "fullday": "$55 for the full day"
+                    "halfdayw": "$45 for 3 hours",
+                    "fulldayw": "$55 for the full day"
                 }
             ]
         },
@@ -59,8 +59,8 @@
             ],
             "walkin": [
                 {
-                    "halfday": "$60 for 3 hours",
-                    "fullday": "$80 for the full day"
+                    "halfdayw": "$60 for 3 hours",
+                    "fulldayw": "$80 for the full day"
                 }
             ]
         },
@@ -75,8 +75,8 @@
             ],
             "walkin": [
                 {
-                    "halfday": "$85 for 3 hours",
-                    "fullday": "$125 for the full day"
+                    "halfdayw": "$85 for 3 hours",
+                    "fulldayw": "$125 for the full day"
                 }
             ]
         },
@@ -91,8 +91,8 @@
             ],
             "walkin": [
                 {
-                    "halfday": "$70 for 3 hours",
-                    "fullday": "$90 for the full day"
+                    "halfdayw": "$70 for 3 hours",
+                    "fulldayw": "$90 for the full day"
                 }
             ]
         }
