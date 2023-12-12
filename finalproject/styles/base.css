@@ -186,12 +186,27 @@ iframe{
 
 }
 
-
-
 .agrental{
   background-color: var(--lotsAccent);
   text-align: center;
   margin: 25px;
+}
+
+
+#rentalinfo{
+  margin: 2rem 1px;
+  border: 1px solid var(--lotsAccent);
+  box-shadow: 0 0 10px var(--lotsAccent);
+  display: grid;
+  text-align: center;
+  margin: 25px;
+  border: 2px solid var(--lessAccent); 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+#rentalinfo h2{
+  padding: 20px;
 }
 
 Footer { 

@@ -19,6 +19,12 @@ const url = "https://sarihahope.github.io/wdd230/finalproject/data/rentals.json"
       let walkin = document.createElement('h4');
       let halfdayw = document.createElement('p');
       let fulldayw = document.createElement('p');
+      let icon = document.createElement('img');
+
+      icon.setAttribute('src', rental.iconimage);
+      icon.setAttribute('loading', 'lazy');
+      icon.setAttribute('width', '100');
+      icon.setAttribute('height', '100');
 
       name.textContent = `${rental.name}`; 
 	    capacity.textContent = `${rental.capacity}`; 
@@ -31,6 +37,7 @@ const url = "https://sarihahope.github.io/wdd230/finalproject/data/rentals.json"
 
 
       card.appendChild(name);
+      card.appendChild(icon);
       card.appendChild(capacity);
       card.appendChild(resevation);
 	    card.appendChild(halfday);
