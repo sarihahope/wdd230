@@ -12,7 +12,6 @@ const url = "https://sarihahope.github.io/wdd230/finalproject/data/rentals.json"
     rentals.forEach((rental) => {
       let card = document.createElement('section');
       let name = document.createElement('h2'); 
-      let capacity = document.createElement('h3');
       let resevation = document.createElement('h4');
       let halfday = document.createElement('p');
       let fullday = document.createElement('p');
@@ -27,7 +26,6 @@ const url = "https://sarihahope.github.io/wdd230/finalproject/data/rentals.json"
       icon.setAttribute('height', '100');
 
       name.textContent = `${rental.name}`; 
-	    capacity.textContent = `${rental.capacity}`; 
 	    resevation.textContent = `${rental.resevation}`; 
 	    halfday.textContent = `${rental.halfday}`; 
 	    fullday.textContent = `${rental.fullday}`; 
@@ -38,7 +36,6 @@ const url = "https://sarihahope.github.io/wdd230/finalproject/data/rentals.json"
 
       card.appendChild(name);
       card.appendChild(icon);
-      card.appendChild(capacity);
       card.appendChild(resevation);
 	    card.appendChild(halfday);
 	    card.appendChild(fullday);
