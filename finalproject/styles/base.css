@@ -209,6 +209,19 @@ iframe{
   padding: 20px;
 }
 
+table {
+	margin: 10px auto;
+	border: thin solid var(--lightAccent);
+	box-shadow: 0 0 10px var(--lotsAccentw);
+	border-collapse: collapse;
+  grid-column: 2/3;
+}
+
+tr:first-child th {
+	background-color: var(--mainColor); 
+    text-align: center;
+}
+
 Footer { 
   background-color: var(--mainColor);
       display: flex;
