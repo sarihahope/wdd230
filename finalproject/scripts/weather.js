@@ -15,4 +15,17 @@ const displayWeather = (data) => {
     weather.innerHTML = "";
     weather.textContent = `${currentTemp} - ${formatCorrect}`;
 }
+
 getWeather();
+
+document.querySelector(".bannerButton").addEventListener("click", function() {
+    this.closest(".bannercontainer").style.display = "none";
+});
+ 
+ 
+if (currentTemp >= 80 && today <= 85) {
+    document.querySelector(".bannercontainer").style.display = "block";
+} else {
+    document.querySelector(".bannercontainer").style.display = "none";
+}
+
