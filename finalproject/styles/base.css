@@ -174,8 +174,8 @@ form input.submitBtn{
 
 iframe{
     padding: 15px;
-    grid-column: 1/3;
-    grid-row: 2/3;
+    /* grid-column: 1/3;
+    grid-row: 2/3; */
 }
 
 #rentalinfo{
@@ -186,11 +186,6 @@ iframe{
   padding: .5rem 2%;
 }
 
-.maps{
-  grid-column: 1/3;
-  grid-row: 2/3;
-
-}
 
 .agrental{
   background-color: var(--lotsAccent);
